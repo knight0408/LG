@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "nwa start"
+  },
+  "name": "LG",
+  "version": "1.0.0"
+}
