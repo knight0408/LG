@@ -1,0 +1,160 @@
+& {
+	background-image: url("../bg.png")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+    width:100%
+    height:100%
+}
+
+.left{
+	width:50%
+	height:100%
+	float:left
+}
+
+.right{
+	width:50%
+	height:100%
+	float:right
+}
+
+.room{
+	width:91%
+	height:43%
+	position: relative
+}
+
+.roomNormal{
+	background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+	position:absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+}
+
+#roomone{
+	margin:6% 2% 2% 8%
+}
+
+#roomtwo{
+	margin:2% 2% 6% 8%
+}
+
+#roomthree{
+	margin:6% 8% 2% 2%
+}
+
+#roomfour{
+	margin:2% 8% 6% 2%
+}
+
+#roomone.room .roomNormal {
+	background-image: url("./roomOne_n.png")
+}
+
+#roomtwo.room .roomNormal {
+	background-image: url("./roomTwo_n.png")
+}
+
+#roomthree.room .roomNormal {
+	background-image: url("./roomThree_n.png")
+}
+
+#roomfour.room .roomNormal {
+	background-image: url("./roomFour_n.png")
+}
+
+.roomSelected{
+	background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+	position:absolute
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border-width:1.5%
+	border-style:solid
+	border-color:#e31466
+	transition: opacity 0.4s
+}
+
+.roomSelected {
+	opacity: 0
+}
+
+#roomone.room .roomSelected {
+	background-image: url("./roomOne.png")
+}
+
+#roomtwo.room .roomSelected {
+	background-image: url("./roomTwo.png")
+}
+
+#roomthree.room .roomSelected {
+	background-image: url("./roomThree.png")
+}
+
+#roomfour.room .roomSelected {
+	background-image: url("./roomFour.png")
+}
+
+.okImg{
+	background-image: url("./roomOK.png")
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center center
+	position:absolute;
+	left:40%
+	top:40%
+	width:20%
+	height:20%
+}
+
+.roomLogo{
+	background-image: url("./logo.png")
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center center
+    
+}
+
+#roomlogoone{
+	position:absolute
+	left:-10%
+	top:-10%
+	width:20%
+	height:20%
+}
+
+#roomlogotwo{
+	position:absolute
+	left:-10%
+	top:90%
+	width:20%
+	height:20%
+}
+
+#roomlogothree{
+	position:absolute
+	left:90%
+	top:-10%
+	width:20%
+	height:20%
+}
+
+#roomlogofour{
+	position:absolute
+	left:90%
+	top:90%
+	width:20%
+	height:20%
+}
+
+.selected .roomSelected {
+	opacity: 1
+}
