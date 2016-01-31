@@ -35,5 +35,23 @@ export default class Room extends View {
     ok(){
 	    console.log(this.people);
 		console.log(this.room);
+		switch(this.room){
+			case 'roomOne':
+			document.location.href = './ScRoaming1.html';
+			break;
+			
+			case 'roomTwo':
+			document.location.href = './ScRoaming2.html';
+			break;
+			
+			case 'roomThree':
+			document.location.href = './ScRoaming3.html';
+			break;
+			
+			case 'roomFour':
+			document.location.href = './ScRoaming4.html';
+			break;
+		}
+		
     }
 }
